@@ -1,0 +1,86 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* header first section */
+header li {
+    list-style: none;
+
+}
+
+.flower-house {
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.flower-list {
+    display: flex;
+}
+
+.flower-house-list {
+    color: #FFF;
+    padding-right: 30px;
+    font-size: 20px;
+
+
+}
+/* header  second section */
+.section2-div{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+}
+.section2-first-div{
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.header-sec-first {
+    padding: 20px;
+    display: flex;
+    background: #E55473;;
+    justify-content: space-around;
+
+}
+
+.header-first-div-heading {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    
+}
+
+.header-first-div-peragraf {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.header-first-div-btn {
+    background-color: #E55473;
+    color: #FFF;
+    border-radius:  50px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    gap: 10px;
+    margin-top: 30px;
+
+    
+}
+.section2-sec-div{
+    padding-top: 50px;
+    padding-right: 150px;
+}
+.first-pic{
+    width: 635px;
+height: 800px;
+flex-shrink: 0;
+}
