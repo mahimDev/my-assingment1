@@ -29,12 +29,14 @@ header li {
 
 
 }
+
 /* header  second section */
-.section2-div{
+.section2-div {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
 }
-.section2-first-div{
+
+.section2-first-div {
     padding-top: 150px;
     padding-left: 150px;
 }
@@ -42,7 +44,8 @@ header li {
 .header-sec-first {
     padding: 20px;
     display: flex;
-    background: #E55473;;
+    background: #E55473;
+    ;
     justify-content: space-around;
 
 }
@@ -51,7 +54,7 @@ header li {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    
+
 }
 
 .header-first-div-peragraf {
@@ -66,77 +69,89 @@ header li {
 .header-first-div-btn {
     background-color: #E55473;
     color: #FFF;
-    border-radius:  50px;
+    border-radius: 50px;
     font-size: 20px;
     font-weight: 700;
     padding: 20px 43px;
     gap: 10px;
     margin-top: 30px;
 
-    
+
 }
-.section2-sec-div{
+
+.section2-sec-div {
     padding-top: 50px;
     padding-right: 150px;
 }
-.first-pic{
+
+.first-pic {
     width: 635px;
-height: 800px;
-flex-shrink: 0;
+    height: 800px;
+    flex-shrink: 0;
 }
+
 /* main */
 /* first section */
-.main-sec-1-first-div{
-display: flex;
-text-align: center;
-padding-top: 200px;
-justify-content: center;
+.main-sec-1-first-div {
+    display: flex;
+    text-align: center;
+    padding-top: 200px;
+    justify-content: center;
 }
-.Featured-Flowers-heading{
+
+.Featured-Flowers-heading {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
-.Featured-Flowers-pera{
+
+.Featured-Flowers-pera {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
+
 /* 3 pic */
 
-.main-sec-1-second-div{
+.main-sec-1-second-div {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding-top: 50px;
+    gap: 20px;
 }
-.sec-1-flower-1-div{
+
+.sec-1-flower-1-div {
     margin: 50px;
-    background-color:#A7216226;
+    background-color: #A7216226;
     width: 400px;
     height: 500px;
     border-radius: 200px 200px 0px 0px;
-    
+
 }
-.sec-1-flower-1-pic{
+
+.sec-1-flower-1-pic {
     padding-left: 50px;
     padding-top: 70px;
 }
-.sec-1-flower-2-div{
+
+.sec-1-flower-2-div {
     margin: 50px;
-    background-color:#921f1027;
+    background-color: #921f1027;
     width: 400px;
     height: 500px;
     border-radius: 200px 200px 0px 0px;
 
 }
-.sec-1-flower-2-pic{
+
+.sec-1-flower-2-pic {
 
     padding-left: 40px;
     padding-top: 60px;
     padding-right: 20px;
 }
-.sec-1-flower-3-div{
+
+.sec-1-flower-3-div {
     margin: 50px;
     background-color: #477D1126;
     width: 400px;
@@ -144,47 +159,107 @@ font-weight: 800;
     border-radius: 200px 200px 0px 0px;
 
 }
-.sec-1-flower-3-pic{
-    
+
+.sec-1-flower-3-pic {
+
     padding-left: 50px;
     padding-top: 28px;
 }
-.pink-flower-tree-div{
+
+.pink-flower-tree-div {
     display: flex;
     align-items: center;
-    justify-content: center;}
-
-.pink-flower-tree-1{
-    
-
-color: #272727;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
-padding-left:0px 200px 0px;
-padding-right: 130px;
+    justify-content: center;
 }
-.pink-flower-tree-2{
-    
-color: #272727;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
-padding: 0px 200px 0px;
+
+.pink-flower-tree-1 {
+
+
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-left: 0px 200px 0px;
+    padding-right: 130px;
+}
+
+.pink-flower-tree-2 {
+
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 0px 200px 0px;
 
 
 }
-.pink-flower-tree-3{
-    
-color: #272727;
-text-align: center;
-font-size: 24px;
+
+.pink-flower-tree-3 {
+
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-left: 0px 200px 0px;
+    padding-left: 130px;
+
+
+}
+/* main section-2 */
+.section-2{
+    padding-top: 200px;
+}
+.hot-deal{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+/* padding: 0px 50px 0px 120px ; */
+}
+.span{
+    color: #E55473;
+}
+.hot-deal-peragraf{
+    color: rgba(39, 39, 39, 0.60);
+    width: 100%;
+    padding-top: 20px;
+font-size: 18px;
+font-weight: 400;
+ line-height: 30px;
+}
+.hot-deal-btn{
+    color: #FFF;
+    background-color: #E55473;
+font-size: 20px;
 font-weight: 700;
-line-height: 35px;
-padding-left:0px 200px 0px;
-padding-left: 130px;
-    
+padding: 20px 43px;
+gap: 10px;
+margin-top: 20px;
+border: 0px;
+border-radius: 5px;
+}
+.section-2-div{
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-2-div-first-div {
+    width: 600px;
+    font-size: larger;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: auto ;
+
+} 
+.hot-deal-img{
+    width: 500;
+    height: 700;
+    padding:100px 200px 100px 0px ;
 
 }
