@@ -34,6 +34,8 @@ header li {
 .section2-div {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
+
+
 }
 
 .section2-first-div {
@@ -208,39 +210,45 @@ header li {
 
 
 }
+
 /* main section-2 */
-.section-2{
+.section-2 {
     padding-top: 200px;
 }
-.hot-deal{
+
+.hot-deal {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
-/* padding: 0px 50px 0px 120px ; */
+    font-size: 40px;
+    font-weight: 800;
+    /* padding: 0px 50px 0px 120px ; */
 }
-.span{
+
+.span {
     color: #E55473;
 }
-.hot-deal-peragraf{
+
+.hot-deal-peragraf {
     color: rgba(39, 39, 39, 0.60);
     width: 100%;
     padding-top: 20px;
-font-size: 18px;
-font-weight: 400;
- line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
-.hot-deal-btn{
+
+.hot-deal-btn {
     color: #FFF;
     background-color: #E55473;
-font-size: 20px;
-font-weight: 700;
-padding: 20px 43px;
-gap: 10px;
-margin-top: 20px;
-border: 0px;
-border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    gap: 10px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 5px;
 }
-.section-2-div{
+
+.section-2-div {
     background: rgba(229, 84, 115, 0.05);
     display: flex;
     align-items: center;
@@ -254,12 +262,135 @@ border-radius: 5px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    display: auto ;
+    display: auto;
 
-} 
-.hot-deal-img{
+}
+
+.hot-deal-img {
     width: 500;
     height: 700;
-    padding:100px 200px 100px 0px ;
+    padding: 100px 200px 100px 0px;
 
+}
+
+/* main section 3 */
+.insta {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.insta-pera {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.insta-div {
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.picture-4-div {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+.pic-1 {
+    box-shadow: 10px 20px 50px;}
+    
+.pic-2 {
+    box-shadow: 10px 20px 50px;
+
+}
+
+.pic-3 {
+    box-shadow: 10px 20px 50px;
+}
+
+.pic-4 {
+    box-shadow: 10px 20px 50px;}
+
+.get {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.coupon {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.search-box {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.subscribe {
+    background-color: #E55473;
+    border-radius: 5px;
+    width: 150px;
+    height: 65px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-4 {
+    padding-top: 500px;
+
+}
+
+.background-img {
+    background-image: url("./Rectangle\ 9.png");
+    background-repeat: repeat;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-left: 200px;
+
+}
+
+.section-4-div {
+    padding-top: 100px;
+
+    width: 1000px;
+        margin: auto;}
+        
+        
+/* }
+.last-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    display: inline-block;
+}
+.section-3 , .section-4{
+    display: inline; */
 }
